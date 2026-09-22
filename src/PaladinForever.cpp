@@ -95,7 +95,7 @@ namespace PaladinForever
     // Grant both Crusader Strike and Consecration on login or level-up.
     void GrantPaladinAbilities(Player* player)
     {
-        if (player->GetClass() != CLASS_PALADIN)
+        if (player->getClass() != CLASS_PALADIN)
             return;
 
         if (!GetConfig().Enable)
@@ -121,7 +121,7 @@ public:
         if (!GetConfig().Enable)
             return;
 
-        if (player->GetClass() != CLASS_PALADIN)
+        if (player->getClass() != CLASS_PALADIN)
             return;
 
         PaladinForever::GrantPaladinAbilities(player);
@@ -132,7 +132,7 @@ public:
         if (!GetConfig().Enable)
             return;
 
-        if (player->GetClass() != CLASS_PALADIN)
+        if (player->getClass() != CLASS_PALADIN)
             return;
 
         PaladinForever::GrantPaladinAbilities(player);
