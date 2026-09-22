@@ -1,0 +1,34 @@
+[worldserver]
+
+########################################
+# mod-paladin-forever configuration
+########################################
+#
+# Gives paladins baseline combat abilities early in their career for the
+# WoW-Forever experience:
+#
+#   1. Crusader Strike at level 10 (spell 35395) - instant weapon strike
+#      with holy damage (normally trainer-taught much later)
+#
+#   2. Consecration ranks based on player level (grants the highest rank
+#      whose minimum level <= player level)
+#
+# No custom spells, no DBC patches, client-safe.
+#
+
+#
+#    PaladinForever.Enable
+#        Master on/off switch for this module. 0 = the module loads but does
+#        nothing.
+#        Default: 1
+#
+PaladinForever.Enable = 1
+
+#
+#    PaladinForever.CrusaderStrikeLevel
+#        Minimum player level at which Crusader Strike (spell 35395) is granted
+#        to paladins on login and level-up. Set to a higher number to delay the
+#        ability.
+#        Default: 10
+#
+PaladinForever.CrusaderStrikeLevel = 10
