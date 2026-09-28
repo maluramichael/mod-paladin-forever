@@ -1,5 +1,10 @@
 # mod-paladin-forever
 
+<!-- links:start -->
+[![Support me on Ko-fi](https://malura.de/assets/badge/kofi.svg)](https://malura.de/go/kofi?ref=mod-paladin-forever)
+[![Check out my page](https://malura.de/assets/badge/malura.svg)](https://malura.de/go/site?ref=mod-paladin-forever)
+<!-- links:end -->
+
 An [AzerothCore](https://www.azerothcore.org/) module (WotLK 3.3.5a) that gives Paladins
 two combat abilities early while leveling, without talents or trainer trips.
 
